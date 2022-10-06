@@ -1,0 +1,129 @@
+body {
+    background-color: #000000;
+    width: 1310px;
+    font-family: arial;
+    margin: auto;
+}
+header {
+    display: inline-block;
+    margin: auto;
+}
+main {
+    background-color: #ffffff;
+}
+h1 {
+    color: #007D7B;
+    font-size: 40px;
+    float: left;
+    margin-left: 40px;
+}
+nav {
+    float: right;
+}
+nav li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 160px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #007D7B;
+}
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    color: #ffffff;
+    background-color: #007D7B;
+}
+[href="#top"]:hover {
+    color: #007D7B;
+    background-color: #ffffff;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+.about {
+    height: 420px;
+}
+.photographer {
+    float: left;
+    width: 850px;
+    height: 420px;
+}
+figure {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+figcaption {
+    font-size: 16px;
+    position: absolute;
+}
+.small {
+    height: 281px;
+    width: 420px;
+    position: relative;
+}
+.big {
+    height: 630px;
+    width: 420px;
+    position: relative;
+}
+.leftb {
+    position: bottom;
+}
+.right {
+    position: bottom right;
+}
+.form {
+    color: #ffffff;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    width: 850px;
+}
+input {
+    color: #007D7B;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label {
+    float: left;
+}
+#name {
+    font-size: 16px;
+    color: #007D7B;
+    text-align: left;
+}
+#email {
+    font-size: 16px;
+    color: #007D7B;
+}
+#message {
+    font-size: 16px;
+    color: #007D7B;
+}
+button {
+    font-size: 16px;
+    background-color: #007D7B;
+    border-radius: 5px;
+}
+footer {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
